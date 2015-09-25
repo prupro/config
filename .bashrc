@@ -1,0 +1,22 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+alias open="kde-open"
+
+# google-chrome app-mode; opens max two windows
+chromeAppMode() {
+	for arg in "$@"
+	do
+		google-chrome --app="$arg"
+	done	
+}
+
+alias chrome=chromeAppMode
