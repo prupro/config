@@ -11,7 +11,7 @@ fi
 # User specific aliases and functions
 alias open="kde-open"
 
-# google-chrome app-mode; opens max two windows
+# google-chrome app-mode
 chromeAppMode() {
 	for arg in "$@"
 	do
