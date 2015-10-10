@@ -20,3 +20,4 @@ chromeAppMode() {
 }
 
 alias chrome=chromeAppMode
+

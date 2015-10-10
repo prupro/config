@@ -18,3 +18,7 @@ syntax enable
 " open .md files as markdown
 au BufNewFile,BufRead *.markdown,*.mdown,*.mkd,*.mkdn,*.mdwn,*.md  set ft=markdown
 
+" set number
+
+set showcmd
+set incsearch
