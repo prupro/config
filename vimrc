@@ -22,3 +22,5 @@ au BufNewFile,BufRead *.markdown,*.mdown,*.mkd,*.mkdn,*.mdwn,*.md  set ft=markdo
 
 set showcmd
 set incsearch
+
+colorscheme solarized
