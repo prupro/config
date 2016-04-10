@@ -3,3 +3,4 @@
 - gitconfig -> ~/.gitconfig
 - sshconfig -> ~/.ssh/config
 - vimrc -> ~/.vimrc
+- bash_logout -> ~/.bash_logout

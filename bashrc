@@ -5,6 +5,12 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
+# cd to prev wd on login
+# works only on login shells
+# see .bash_logout
+[ -s ~/.lastdirectory ] && cd `cat ~/.lastdirectory`
+
+
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
