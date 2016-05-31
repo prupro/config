@@ -1,2 +1,7 @@
 ControlMaster auto
 ControlPath ~/.ssh/control:%h:%p:%r
+
+Host 10.107.66.225
+Compression yes
+ForwardX11 yes
+Ciphers blowfish-cbc,arcfour
