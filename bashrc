@@ -16,7 +16,10 @@ fi
 
 # User specific aliases and functions
 alias open="kde-open"
-alias la="ls -a"
+alias la="ls -A"
+alias ll="ls -alF"
+alias l='ls -CF'
+
 # google-chrome app-mode
 chromeAppMode() {
 	for arg in "$@"
